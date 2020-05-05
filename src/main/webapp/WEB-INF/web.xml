@@ -18,12 +18,12 @@
     <url-pattern>/Vaalikone</url-pattern>
   </servlet-mapping>
    <servlet>
-    <servlet-name>MyServlet</servlet-name>
-    <servlet-class>vaalikone.MyServlet</servlet-class>
+    <servlet-name>daoQuest</servlet-name>
+    <servlet-class>vaalikone.daoQuest</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>MyServlet</servlet-name>
+    <servlet-name>daoQuest</servlet-name>
     <url-pattern>/admin</url-pattern>
   </servlet-mapping>
   <session-config>
